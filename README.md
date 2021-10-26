@@ -13,3 +13,6 @@ This is an implementation of this [Java project](https://github.com/jshgwng/gues
 ## Improvements
 1. Better user experience by improving the UI
 2. Guess birthdates and share facts about that date from external API
+
+## Demo
+Play the game [here](https://jshgwng.github.io/guess-birthdate-web/)
