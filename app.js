@@ -44,7 +44,7 @@ startButton.addEventListener("click", function(e){
   e.preventDefault();
   startButton.textContent = `Next`;
   if (count > 4) {
-    startButton.textContent.add("d-none");
+    startButton.classList.add("d-none");
     titlePrompt.textContent = `Your birthdate is ${answer}`;
   } else {
     titlePrompt.textContent = `Is your birthdate in set ${count + 1}?`;
